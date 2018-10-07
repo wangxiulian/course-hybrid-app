@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>轮播</title>
+    <script src="carousel.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box{
+            position: relative;
+            overflow: hidden;
+        }
+        #both{
+            text-align: center;
+            padding-top: 25px;
+        }
+        .slider-ctrl-prev,.slider-ctrl-next {
+            position: absolute;
+            top: 50%;
+            margin-top: -35px;
+            background:url(../images/icon.png) no-repeat 6px top;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        #left{
+            position: absolute;
+            top: 50%;
+            margin-top: -35px;
+            opacity: 0.8;
+            cursor: pointer;
+            left: 0;
+        }
+        #right{
+            position: absolute;
+            top: 50%;
+            margin-top: -35px;
+            opacity: 0.8;
+            cursor: pointer;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="slider">
+            <div id="main">
+                <div id="im"><a href="#"><img src="img/banner_00.gif" ></a></div>
+                <div id="im"><a href="#"><img src="img/banner_01.gif"></a></div>
+                <div id="im"><a href="#"><img src="img/banner_02.gif"></a></div>
+                <div id="im"><a href="#"><img src="img/banner_03.gif"></a></div>
+                <div id="im"><a href="#"><img src="img/banner_04.gif"></a></div>
+                <div id="im"><a href="#"><img src="img/banner_05.gif"></a></div>
+            </div>
+            <div id="both">
+                <span id="left"></span>
+                <span id="right"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
