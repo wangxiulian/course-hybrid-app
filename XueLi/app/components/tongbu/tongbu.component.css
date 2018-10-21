@@ -1,0 +1,18 @@
+.con{
+    width:1000px;
+    margin: auto;
+    margin-top: 20px; 
+}
+.tu{
+    margin-top:40px;
+    margin-left:20px;
+}
+.tu span{
+    font-size:12px;
+    color:#222;
+}
+.tu button{
+    background-color: darkorange;
+    float:right;
+    color:whitesmoke;
+}

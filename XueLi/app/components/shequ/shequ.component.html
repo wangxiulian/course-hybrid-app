@@ -1,0 +1,40 @@
+<div class="con">
+  <div class="more">
+    <ul>
+      <li *ngFor = "let item of communities">
+        <div class="left">
+          <img src="{{item.headpic}}" alt="">
+        </div>
+        <div class="right">
+          <div class="up">
+            <div class="up-1">
+              <a [routerLink]="['/shequ',item.id]"><img src="{{item.images}}" alt=""></a>
+            </div>
+            <div class="up-2">
+              <a [routerLink]="['/shequ',item.id]">{{item.articleName}}</a>
+              <p>{{item.article}}</p>
+            </div>
+          </div>
+          <div class="down">
+            {{item.Name}}
+            {{item.data}}
+            <span>阅读{{item.reading}}&nbsp;|&nbsp;评论{{item.common}}</span>
+          </div>
+        </div>
+        <hr color="#ccc">
+      </li>
+    </ul>
+  </div>
+  <div class="hua">
+    <h4>热门话题</h4>
+    <hr color="#eee">
+    <ul>
+      <li><a href="#">#数据结构#</a><span>3万</span></li>
+      <li><a href="#">#数据库原理#</a><span>2万</span></li>
+      <li><a href="#">#web开发（二）#</a><span>1.5万</span></li>
+      <li><a href="#">#数据库数理概论#</a><span>1万</span></li>
+      <li><a href="#">#web开发#</a><span>1万</span></li>
+    </ul>
+  </div>
+
+</div>

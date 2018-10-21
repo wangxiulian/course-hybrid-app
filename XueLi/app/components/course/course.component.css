@@ -1,0 +1,33 @@
+.con{
+    width:1000px;
+    margin: auto;
+    margin-top: 20px; 
+    font-size:14px;
+}
+.con p{
+    color:#110f0f;
+}
+.con span{
+    color:#111;
+}
+.hide p{
+    height:55px;
+    color: #aaa;
+    overflow: hidden;
+}
+.name p{
+    height:16px;
+    overflow: hidden;
+}
+.bottom{
+    float: left;
+}
+.left{
+    float: left;
+}
+.right{
+    float:left;margin-left:100px;
+}
+.bottom p{
+    color: #aaa;
+}

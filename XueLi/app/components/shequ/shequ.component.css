@@ -1,0 +1,53 @@
+.con{
+    width:1000px;
+    margin:0 auto;
+}
+.more{
+    margin-top:20px;
+    float: left;
+}
+.left{
+    width:50px;
+    height:150px;
+    float:left;
+    margin-right:10px;
+}
+.up{
+    margin-bottom:20px;
+}
+.up-1{
+    float: left;
+    margin-right:10px;
+}
+.up-2{
+    margin-bottom:10px;
+}
+.up-2 a{
+    font-size:14px;
+    font-weight: bold;
+    color:#333;
+}
+.up-right p{
+    font-size:14px;
+    color:#666;
+    margin-top:20px;
+}
+.right .down{
+    margin-bottom:10px;
+    font-size:14px;
+    color:#ccc;
+}
+.right .down span{
+    float:right;
+}
+.hua{
+    width:200px;
+    height:400px;
+    margin-top:20px;
+    float:right;
+    margin-right:10px;
+}
+.hua li span{
+    color:#ccc;
+    float: right;
+}

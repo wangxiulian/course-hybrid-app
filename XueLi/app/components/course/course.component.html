@@ -1,0 +1,20 @@
+<ul class="con">
+  <li *ngFor = "let lesson of lessons;">
+    <a [routerLink] = "['/course',lesson.id]">
+      <img src="{{lesson.images}}" alt="">
+      <div class="ke">
+          <span class="name">
+            <p> {{lesson.lessonName}}</p><br> 
+          </span>
+          <span class="jieshao">
+            <p>介绍{{lesson. introduction }}</p>
+          </span>
+          <br>
+          <div class="bottom">
+            <span class="left"><p>课时{{lesson.task}}</p></span>
+            <span class="right"><p>人数{{lesson.person}}</p></span><br>
+          </div>
+      </div>
+    </a>     
+  </li>
+</ul>
