@@ -1,0 +1,82 @@
+page-b {
+    // ion-content{
+    //     background: url(../assets/imgs/bg.png);
+    //     background-size: cover;
+    //     .box{
+    //         ion-item{
+    //             background: transparent;
+    //             ion-icon{
+    //                 color:#d1dad8;
+    //             }
+    //             input::-webkit-input-placeholder {
+    //                 color: #f00;
+    //                 font-size: 14px;
+    //             }
+    //             button{
+    //                 color: red;
+    //             }
+    //         }
+    //         button{
+    //             margin-top: 50px;
+    //             color: #fff;
+    //         }
+    //         p{
+    //             color: #fff!important;
+    //             text-align: center;
+    //         }
+    //     }
+    // }
+
+
+    .me{
+        background: url(../assets/imgs/bg2_01.png);
+        width: 100%;
+        height: 200px;
+        p{
+            text-align: center;
+            bottom:4px;
+        }
+    }
+
+    .navList{
+        padding-left: 0!important;
+        margin: 0;
+        li{
+            position: relative;
+            float: left;
+            width: 50%;
+        }
+    }
+
+    
+    .tu1{
+        .list1{
+            li{
+                position: relative;
+                float: left;
+                width: 30%;
+                .box{
+                    width: 30%;
+                    height: 100px;
+                    padding: 0;
+                    border:1px #000;
+                }
+            } 
+                       
+        }
+        .list2{
+            li{
+                position: relative;
+                float: left;
+                width: 50%;
+                .box{
+                    width: 30%;
+                    height: 100px;
+                    padding: 0;
+                    border:1px #000;
+                }
+            }
+            
+        }
+    }
+}
